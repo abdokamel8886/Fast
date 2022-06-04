@@ -1,11 +1,11 @@
 [core]
-  packedGitLimit = 128m
-  packedGitWindowSize = 128m
-
+    packedGitLimit = 512m
+    packedGitWindowSize = 512m
 [pack]
-  deltaCacheSize = 128m
-  packSizeLimit = 128m
-  windowMemory = 128m
-
+    windowMemory = 512m
+    packSizeLimit = 512m
+    deltaCacheSize = 512m
+    threads = 1
+    window = 0
 [http]
-  postbuffer = 5m
+    postbuffer = 9999999999
