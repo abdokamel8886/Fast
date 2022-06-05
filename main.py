@@ -47,7 +47,7 @@ model = load_model("BT_Model.h5")
 
 
 
-SegModel = load_model("Seg_Model.h5")
+SegModel = load_model("seg.h5")
 
 
 
